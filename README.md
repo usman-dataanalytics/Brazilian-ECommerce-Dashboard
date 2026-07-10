@@ -1,17 +1,17 @@
-Brazilian E-Commerce Analytics Dashboard
+# Brazilian E-Commerce Analytics Dashboard
 
-Overview
+## Overview
 4-page interactive Power BI dashboard analyzing 99,441 orders from the Brazilian Olist e-commerce platform.
 
-Tools Used
+## Tools Used
 - Power BI (DAX, Power Query, Data Modeling)
 - Data Source: Olist Brazilian E-Commerce Dataset
 
-Data Model
+## Data Model
 8 related tables connected via star-schema relationships:
 customers, orders, order_items, order_payments, order_reviews, products, sellers, geolocation
 
-Key Metrics
+## Key Metrics
 - Total Orders: 99K
 - Total Sales: $16M
 - On-Time Delivery Rate: 93.4%
@@ -19,7 +19,7 @@ Key Metrics
 - Total Sellers: 3K
 - Total Products: 33K
 
-Key Findings
+## Key Findings
 - bed_bath_table and health_beauty are top product categories
 - Credit card dominates 77% of payment volume
 - SP state drives 37% of total revenue
